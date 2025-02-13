@@ -1,0 +1,270 @@
+/* Google Font Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+nav.sticky{
+  padding: 15px 20px;
+  background: #4070f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .nav-content{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+nav .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #f3f3f3;
+  padding-left: 50px;
+}
+nav.sticky .logo a{
+  color: #fff;
+  
+}
+.nav-content .nav-links{
+  display: flex;
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0 8px;
+}
+ .nav-links li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+ .nav-links li a:hover{
+   color: #f5f6f8;
+   box-shadow: 2px 2px 2px black;
+   
+ }
+ nav.sticky .nav-links li a{
+   color: #fff;
+   transition: all 0.4s ease;
+}
+ nav.sticky .nav-links li a:hover{
+  color: #0E2431;
+}
+
+.navbar{
+    background-color: #1E5631;
+    position: fixed;
+}
+.logo{
+    color: #fff;
+}
+
+.screen{
+  background-color: #7BB547;
+  height: 600px;
+  width: 1420px;
+  border-radius: 20px;
+  margin-top: 110px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.screen .left {
+  height: 600px;
+  width: 770px;
+  
+}
+
+.screen .right {
+  
+  height: 600px;
+  width: 670px;
+}
+.right img{
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.left h1{
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.left  p{
+  color: white;
+  font-size: 30px;
+  margin-top: 180px;
+  text-align: center;
+  font-weight: 500;
+}
+.screen2 img{
+  margin-top: 80px;
+  margin-left: 240px;
+  height: 500px;
+  width: 900px;
+}
+.screen3{
+  display: flex;
+  margin-top: 80px;
+  margin-left: 80px;
+  
+}
+.screen3 .left{
+  height: 600px;
+  width: 750px;
+  
+}
+.screen3 .right{
+  height: 600px;
+  width: 600px;
+  
+}
+.screen3 .right img{
+  height: 620px;
+  width: 500px;
+}
+.screen3 .left .calculate {
+  height: 150px;
+  width: 750px;
+  background-color: #1E5631;
+  margin-top: 100px;
+  margin-left: 60px;
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 25px;
+ color: rgb(39, 42, 4);
+}
+.screen3 .left  a{
+  color: rgb(228, 233, 160);
+}
+.calculate:hover{
+  box-shadow: 2px 2px 10px black; 
+}
+.calculate h4{
+  font-size: 20px;
+  margin-top: 28px;
+  font-weight: 200;
+  margin-left: 5px;
+  color: rgb(228, 233, 160);
+}
+.screen3 .left .tips{
+  height: 150px;
+  width: 750px;
+  background-color: #4C9A2A;
+  margin-top: 50px;
+  margin-left: 60px;
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 25px;
+  
+  color: rgb(228, 233, 160);
+}
+.tips:hover{
+  box-shadow: 2px 2px 10px black;
+}
+.tips h4{
+  font-size: 20px;
+  margin-top: 28px;
+  font-weight: 200;
+  margin-left: 5px;
+  color: rgb(228, 233, 160);
+}
+.screen3 .left .goals{
+  height: 150px;
+  width: 750px;
+  background-color: #76BA1B;
+  margin-top: 50px;
+  margin-left: 60px;
+  font-size: 50px;
+  font-weight: 500;font-size: 50px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 25px;
+  
+  color: rgb(228, 233, 160);
+}
+.goals:hover{
+  box-shadow: 2px 2px 10px black;
+}
+.goals h4{
+  font-size: 20px;
+  margin-top: 28px;
+  font-weight: 200;
+  margin-left: 5px;
+  color: rgb(228, 233, 160);
+}
+.foo{
+  margin-top: 250px;
+  overflow-x:hidden;
+  }
+  
+  .footer{
+  background:#1E5631;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:#e8d1f4;
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:#e8d1f4;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+.screen3{
+  background-image: url("bghome.png");
+ background-repeat: no-repeat;
+ 
+ background-position: center;
+ background-size: 500px 500px;
+}
+
+.screen2{
+  margin-left: 80px;
+}

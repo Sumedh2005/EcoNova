@@ -1,0 +1,272 @@
+/* Google Font Import Link */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+  *{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+nav.sticky{
+  padding: 15px 20px;
+  background: #4070f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .nav-content{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+nav .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #f3f3f3;
+  padding-left: 50px;
+}
+nav.sticky .logo a{
+  color: #fff;
+  
+}
+.nav-content .nav-links{
+  display: flex;
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0 8px;
+}
+ .nav-links li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+ .nav-links li a:hover{
+   color: #f5f6f8;
+   box-shadow: 2px 2px 2px black;
+   
+ }
+ nav.sticky .nav-links li a{
+   color: #fff;
+   transition: all 0.4s ease;
+}
+ nav.sticky .nav-links li a:hover{
+  color: #0E2431;
+}
+
+.navbar{
+    background-color: #1E5631;
+    position: fixed;
+}
+.logo{
+    color: #fff;
+}
+
+.heroo{
+    margin-top: 100px;
+   margin-left: 80px;
+}
+.qut{
+    margin: 50px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 100px;
+    width: 600px;
+}
+
+.lvl{
+    height: 620px;
+    width: 700px;
+    margin-left: 300px;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.input{
+    background-color:white;
+    height: 150px;
+    border-radius: 90px;
+    margin: 20px;
+    margin-top: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 40px;
+display: flex;
+border: 2px solid black;
+}
+
+input{
+   
+    background-color:white;
+    margin: 40px;
+    padding: 20px;
+    font-size: 30px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+
+   
+}
+label{
+  font-size:35px;
+  font-weight: 520;
+  color:black;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#level{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.butty{
+  margin-top: 50px;
+  height: 50px;
+  width: 160px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.foo{
+  margin-top: 250px;
+  overflow-x:hidden;
+  }
+  
+  .footer{
+  background:#1E5631;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:#e8d1f4;
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:#e8d1f4;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+
+
+
+  /* bank */
+
+  .bank{
+    background-color: #FEB5BC;
+    text-align: center;
+    height: 70px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 15px;
+  }
+  .hiroi{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80vh;
+    
+   
+}
+.credits{
+    background-image: linear-gradient(#FEB5BC , white);
+    height: 100vh;
+    margin: 40px 100px;
+    border: 4px solid #ff8c98;
+    border-radius: 40px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.pb{
+    padding: 10px;
+}
+
+.cred{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 800px;
+  margin-left: 180px;
+}
+#credits{
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.cop{
+  margin-top: 120px;
+  margin-left: 620px;
+}
+
+.cup{
+  margin-top: 40px;
+  height: 50px;
+  width: 400px;
+  border: 3px solid  #ff8c98;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 620px;
+}

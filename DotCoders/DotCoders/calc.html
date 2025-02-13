@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body> 
+
+
+    <div class="nevv">
+        <nav class="navbar">
+            <div class="nav-content">
+              <div class="logo">
+                <a href="#">ecoNova</a>
+              </div>
+              <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gen.html">Calculate</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+              </ul>
+            </div>
+    </div>
+
+     
+
+
+    <div class="calculator">
+        <div class="head">
+            <h2>CARBON CALCULATOR</h2>
+            <p class="h2d">Carbon footprint calculator for individuals and households</p>
+        </div>
+        
+
+        <div class="elems">
+            <div class="dist">
+                <img src="dist.png" alt="dist">
+                <label for="distance">Distance Traveled (km):</label>
+                <input type="number" id="distance"  placeholder="______">
+            </div>
+            <div class="fuel">
+                <img src="fuel.png" alt="fuel">
+                <label for="fuel-efficiency">Fuel Utilised (liters):</label>
+                <input type="number" id="fuel-efficiency"  placeholder="______">
+            </div>
+            <div class="elec">
+                <img src="elec.png" alt="elec">
+                <label for="electricity">Electricity Consumed (kWh):</label>
+                <input type="number" id="electricity"  placeholder="______" >
+            </div>
+            <div class="meat">
+                <img src="meat.png" alt="meat">
+                <label for="meat-consumption">Meat Consumption (kg):</label>
+                <input type="number" id="meat-consumption"  placeholder="______">
+            </div>
+            <div class="wate">
+                <img src="water.png" alt="wate">
+                <label for="water-usage">Water Usage (liters):</label>
+                <input type="number" id="water-usage"  placeholder="______">
+            </div>
+            <div class="air">
+                <img src="air.png" alt="air">
+                <label for="flight-hours">Hours Spent in Aircraft (h):</label>
+                <input type="number" id="flight-hours"  placeholder="______">
+            </div>
+
+            <button onclick="calculateCarbonFootprint()" class="call">Calculate</button>
+ 
+        </div>
+
+       
+       <div class="res">
+         <div id="result"></div>
+         <div id="monthly-total"></div>
+          
+           <div class="buts">
+              <a href="tips.html" class="btn1">Guide</a>
+              <a href="goal.html" class="btn1">Goals</a>
+           </div>
+       </div> 
+       
+      
+        
+    </div>
+
+    <div class="foo">
+        <div class="footer">
+        <div class="row">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Career</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+        ecoNova Copyright © 2024 ecoNova - All rights reserved || Designed By: DotCoders
+        </div>
+        </div>
+    </div>
+
+    <script src="cal.js"></script>
+</body>
+</html>
